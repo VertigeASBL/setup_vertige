@@ -1,0 +1,30 @@
+<paquet
+	prefix="setup_vertige"
+	categorie="outil"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.20;3.0.*]"
+	logo="prive/themes/spip/images/setup_vertige-64.png"
+	documentation=""
+	schema="1.0.0"
+>
+	<!--
+		Paquet genere le 2015-09-17 16:47:01
+	-->
+
+	<nom>Vertige Setup</nom>
+
+	<auteur lien='http://www.vertige.org'>vertige</auteur>
+
+	<licence>GNU/GPL</licence>
+
+	<!--
+			 Installer les plugins SPIP utilisé par Vertige ASBL
+	-->
+	<necessite nom="Zcore" />
+	<necessite nom="oembed" />
+	<necessite nom="media" />
+	<necessite nom="inserer_modeles" />
+	<necessite nom="lim" />
+	<necessite nom="uploadhtml5" />
+</paquet>
