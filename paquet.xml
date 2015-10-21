@@ -6,7 +6,7 @@
 	compatibilite="[3.0.20;3.0.*]"
 	logo="prive/themes/spip/images/setup_vertige-64.png"
 	documentation=""
-	schema="1.0.0"
+	schema="1.1.0"
 >
 	<!--
 		Paquet genere le 2015-09-17 16:47:01
@@ -27,4 +27,5 @@
 	<necessite nom="inserer_modeles" />
 	<necessite nom="lim" />
 	<necessite nom="uploadhtml5" />
+	<necessite nom="facteur" />
 </paquet>
