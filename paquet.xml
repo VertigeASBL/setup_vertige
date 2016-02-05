@@ -23,8 +23,6 @@
 	-->
 	<necessite nom="Zcore" />
 	<necessite nom="oembed" />
-	<necessite nom="media" />
-	<necessite nom="inserer_modeles" />
 	<necessite nom="lim" />
 	<necessite nom="uploadhtml5" />
 	<necessite nom="facteur" />
